@@ -1,0 +1,87 @@
+.login
+{
+	box-shadow:0 0 20px #f9d342;
+	width:500px;
+	height:300px;
+	margin:0 auto;
+	text-align:center;
+	padding:10px;
+	z-index:2;
+	margin-top:10%
+	
+}
+
+.login input[type=text],.login input[type=password]
+{
+	width:250px;
+	height:30px;
+	background:transparent;
+	border:1px solid rgba(225,225,225,0.6);
+	border-radius:10px;
+	color:#fff;
+	font-size:16px;
+	font-weight:400;
+	padding:4px;
+}
+.login input[type=password],.login input[type=text]
+{
+	margin-top:10px;
+}
+.login input[type=submit]
+{
+	width:260px;
+	height:35px;
+	background:#fff;
+	border:1px solid #fff;
+	border-radius:10px;
+	color:#a18d6c;
+	font-size:16px;
+	font-weight:400;
+	padding:4px;
+	margin-top:10px;
+}
+.login input[type=submit]:hover
+{
+	opacity:0.8;
+}
+.login input[type=submit]:active
+{
+	opacity:0.6;
+}
+.login input[type=text]:focus,.login input[type=password]:focus
+{
+	outline: none;
+	border:1px solid rgba(255,255,255,0.9);
+}
+.login input[type=submit]:focus
+{
+	outline:none;
+}
+::-webkit- input-placeholder,::-moz- input-placeholder 
+{
+	color:rgba(255,255,255,0.6);
+}
+p
+{
+	font-size:25px;
+	font-weight:500;
+	color:#fff;
+	
+}
+p span
+{
+	font-size:30px ; 	
+	text-transform:upper;
+	color:#f9d342;
+}
+.login:hover
+{
+	box-shadow:0 0 20px #fff;
+	background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) ;
+}
+
+
+
+
+
+

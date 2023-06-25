@@ -1,0 +1,55 @@
+body
+{
+	padding: 0px;
+	margin: 0px;
+	font-family:"Javanese Text","Rockwell Nova";
+	background-color:#fffbec;
+	box-sizing: border-box;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/IMG-20210207-WA0022.jpg) center/cover no-repeat fixed ;
+}
+header
+{
+	
+	margin: 0px;
+	font-size: 30px;
+	width:100%;
+	height:100px;
+	text-align:center;
+    color:#f9d342;
+}
+ul li a
+{
+	text-decoration:none;
+	color:#f9d342;
+	
+}
+ul
+{
+	padding:0px;
+	margin:0px;
+}
+ul li
+{
+	list-style:none;
+	display:inline-block;
+	padding:10px;
+	margin-left:5px;
+	font-size:27px;
+}
+ul li a:hover
+{
+	color:#fff;
+	font-size: 30px;
+	padding:5px 2px;
+	transition: all 0.5s ease-in;
+	background-color:#f9d342;
+	border-radius:25px;
+}
+ul li a:active
+{
+	text-decoration: underline;
+	color:#e13030;
+	
+}
+
+

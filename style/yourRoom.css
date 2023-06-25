@@ -1,0 +1,21 @@
+
+.video
+{
+	height:500px;
+	margin-top:6%;
+	margin-left:300px;	
+}
+video
+{
+	height:500px;
+	margin-top:0.5%;
+	margin-left:20px;
+	box-shadow:0 0 20px #f9d342;
+}
+.video video:focus
+{
+	outline:none;
+	box-shadow:0 0 20px #c3c3c3;
+}
+	
+

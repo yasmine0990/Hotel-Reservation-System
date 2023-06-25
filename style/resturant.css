@@ -1,0 +1,115 @@
+html
+{
+	scroll-behavior: smooth;
+}
+.Soap-section
+{
+	margin-top:8%;
+}
+.title
+{
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size:30px;
+	color:#f9d342;/*yellow*/
+	margin:20px;
+	text-align:center;
+	border-bottom:50px;
+	border-top:50px;
+	padding:7px;
+	box-shadow:0 0 20px #f9d342;
+	background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+}
+h3
+{
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size:25px;
+	color:#585858;/*yellow*/
+	text-align:center;
+	border-bottom: 5px solid #292826;/*dark*/
+	width:100px;
+}
+.creamy_saop img, .Brothy_soap img, .earthy_soap img, .hearty_soap img
+{
+	border-radius:50%;
+}
+.creamy_saop,.Brothy_soap,.earthy_soap,.hearty_soap
+{
+	display:grid;
+	grid-template-columns:repeat(4,1fr);
+	background: #f6ffda;
+	gap:10px;
+	padding:30px;
+	margin:30px;
+	box-shadow:0 0 20px #0f605d;
+	margin-bottom:50px;
+}
+section
+{
+	text-align:center;
+	font-size:15px;
+	font-style:bold;
+	text-transform: uppercase;
+	font-weight:1000;
+	box-shadow:0 0 20px #585858;
+	padding:10px;
+	margin:5px;
+	border-radius:30%;
+}
+.vegetables_soap img
+{
+	width:150px;
+	height:150px;
+	border-radius:50%;
+}
+.vegetables_soap
+{
+	display:grid;
+	grid-template-columns:repeat(6,1fr);
+	background-color:#f6ffda;
+	gap:10px;
+	padding:30px;
+	margin:30px;
+	box-shadow:0 0 20px #0f605d;
+}
+.meet-section img,.drinks-section img,.fish-section img,.salad-section img,.desert-section img
+{
+	width:300px;
+	height:300px;
+	border-radius:50%;
+}
+.meet
+{
+	display:grid;
+	grid-template-columns:repeat(3,1fr);
+	gap:10px;
+	padding:30px;
+	margin:30px;
+	box-shadow:0 0 20px #0f605d;
+	margin-bottom:50px;
+	background-color:#f6ffda;
+}
+.fish,.drink,.salad,.desert
+{
+	display:grid;
+	grid-template-columns:repeat(4,1fr);
+	gap:10px;
+	padding:30px;
+	margin:30px;
+	box-shadow:0 0 20px #0f605d;
+	margin-bottom:50px;
+	background-color:#f6ffda;
+	
+}
+section
+{
+	transition: all 0.7s ease;
+}
+.Soap-section:hover,.meet-section:hover,.fish-section:hover,.salad-section:hover,.drinks-section:hover,.desert-section:hover
+{
+	transition: all 0.5s ease;
+	transform: translateY(-15px);
+	opacity:0.8;
+	box-shadow:0 0 20px #f9d342;
+}
